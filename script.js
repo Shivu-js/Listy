@@ -124,3 +124,12 @@ if("serviceWorker" in navigator){
   });
 
 }
+
+window.addEventListener("appinstalled", () => {
+
+  gtag("event", "pwa_install", {
+    event_category: "PWA",
+    event_label: "Listy Installed"
+  });
+
+});
