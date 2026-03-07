@@ -50,7 +50,7 @@ Coming Soon...
 
 ## 📦 Version
 
-Current version: **v1.0.0**
+Current version: **v1.0.4**
 
 ---
 
