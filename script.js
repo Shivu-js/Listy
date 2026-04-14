@@ -93,6 +93,7 @@ removeAll.addEventListener("click", () => {
 });
 
 downloadTxt.addEventListener("click", () => {
+  window.open("https://omg10.com/4/10875692")
 
   let data = JSON.parse(localStorage.getItem("username")) || [];
 
@@ -109,7 +110,7 @@ downloadTxt.addEventListener("click", () => {
 
   link.href = URL.createObjectURL(blob);
 
-  link.download = "names.txt";
+  link.download = "task-list.txt";
 
   link.click();
 
